@@ -1,0 +1,72 @@
+.footer{
+    padding-top: 100px;
+}
+
+.footer__text{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    width: 370px;
+}
+
+.footer__text_adress{
+    margin-bottom: 36px;
+}
+
+.footer__text_adress::before{
+    content: "" ;
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    background-image: url("GPimg/location.svg");
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+    margin-right: 28px;
+    margin-top: 13px;
+}
+
+.footer__text_phone{
+    margin-bottom: 11px;
+}
+
+.footer__text_phone::before{
+    content: "" ;
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    background-image: url("GPimg/bx_bxs-phone-call.svg");
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+    margin-right: 28px;
+}
+
+.footer__text_email::before{
+    content: "" ;
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    background-image: url("GPimg/envelope.svg");
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+    margin-right: 28px;
+}
+
+.footer__list{
+    list-style: none;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.footer__item{
+    width: 50px;
+    height: 50px;
+}
+
+.footer__link{
+    color: #fff;
+}

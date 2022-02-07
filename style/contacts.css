@@ -1,0 +1,51 @@
+.contacts__text{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    width: 370px;
+}
+
+.contacts__text_adress{
+    margin-bottom: 36px;
+}
+
+.contacts__text_adress::before{
+    content: "" ;
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    background-image: url("GPimg/location.svg");
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+    margin-right: 28px;
+    margin-top: 13px;
+}
+
+.contacts__text_phone{
+    margin-bottom: 11px;
+}
+
+.contacts__text_phone::before{
+    content: "" ;
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    background-image: url("GPimg/bx_bxs-phone-call.svg");
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+    margin-right: 28px;
+}
+
+.contacts__text_email::before{
+    content: "" ;
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    background-image: url("GPimg/envelope.svg");
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+    margin-right: 28px;
+}

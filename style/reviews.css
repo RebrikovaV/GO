@@ -1,0 +1,38 @@
+.reviews{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.reviews__img{
+    display: inline-block;
+    width: 280px;
+    height: 280px;
+    margin-right: 10px;
+    margin-bottom: 11px;
+}
+
+.reviews__items-subtitle{
+    display: inline-block;
+    position: relative;
+    top: -155px;
+    width: 680px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.reviews__items-signature{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    width: 280px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.reviews__items-signature:last-child{
+    margin-bottom: 0;
+}
+
+
+

@@ -1,0 +1,45 @@
+.present__title {
+    font-family: "ArialBlack";
+    font-size: 150px;
+    font-weight: 900;
+    letter-spacing: -0.1em;
+    height: 200px;
+    width: 1180px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+
+/*.present::before{
+    content:"";
+    position: absolute;
+    right: 130px;
+    top: 207px;
+    background-image: url("GPimg/person.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    width: 675px;
+    height: 762px;
+}*/
+
+.present{
+    position: relative;
+    height: 823px;
+    margin-top: 146px;
+    padding-top: 0;
+}
+
+.present__img{
+    position: absolute;
+    right: 0;
+    top: 61px;
+    width: 675px;
+    height: 762px;
+}
+
+.present__subtitle{
+    display: inline-block;
+    font-size: 28px;
+    margin-left: 104px;
+    margin-bottom: 0;
+}

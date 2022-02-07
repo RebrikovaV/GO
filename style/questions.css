@@ -1,0 +1,46 @@
+.questions__title{
+    
+}
+
+.questions__item{
+    position: relative;
+    background-color: #fff;
+    color: #1C1A1A;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 30px 70px;
+    margin-bottom: 20px;
+}
+
+.questions__item:nth-child(odd){
+    color: #fff;
+    background-color: #440F51;
+}
+
+.questions__item:nth-child(odd):after{
+    content: "";
+    background-image: url("img/open.svg");
+    display: block;
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    margin-bottom: -23px;
+    bottom: 50%;
+    right: 70px;
+}
+
+.questions__item:nth-child(even):after {
+    content: "";
+    background-image: url("img/open-purple.svg");
+    display: block;
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    margin-bottom: -23px;
+    bottom: 50%;
+    right: 70px;
+}
+
+.questions__item:last-child{
+    margin-bottom: 0px;
+}
